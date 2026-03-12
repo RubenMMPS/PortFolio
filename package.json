@@ -19,6 +19,8 @@
     "vue-router": "^4.6.4"
   },
   "devDependencies": {
+    "@commitlint/cli": "^20.4.4",
+    "@commitlint/config-conventional": "^20.4.4",
     "@eslint/js": "^10.0.1",
     "eslint": "^10.0.3",
     "eslint-plugin-vue": "^10.8.0",
