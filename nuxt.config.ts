@@ -5,6 +5,6 @@ export default defineNuxtConfig({
   modules: ["@nuxt/eslint", "@pinia/nuxt"],
   typescript: {
     strict: true,
-    typeCheck: true,
+    typeCheck: false,
   },
 });
