@@ -1,5 +1,5 @@
 <template>
-  <div>
-    <h1>Welcome</h1>
+  <div class="min-h-screen flex items-center justify-center p-8">
+    <BaseCard />
   </div>
 </template>
