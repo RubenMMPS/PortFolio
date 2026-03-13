@@ -8,7 +8,7 @@ const icons = {
 
 <template>
   <footer
-    class="flex flex-col md:flex-row items-center p-4 bg-header-footer shadow mt-8 text-white"
+    class="flex flex-col md:flex-row items-center p-4 bg-inside-components shadow mt-8 text-white"
   >
     <p class="md:mr-auto">@ 2026 Rubén Built with Tailwind CSS</p>
     <div class="md:ml-auto flex items-center gap-4">

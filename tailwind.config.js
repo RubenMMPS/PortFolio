@@ -17,7 +17,7 @@ export default {
         "bg-primary": "rgb(var(--bg-primary) / <alpha-value>)",
         "text-primary": "rgb(var(--text-primary) / <alpha-value>)",
         "text-secundary": "rgb(var(--text-secundary) / <alpha-value>)",
-        "header-footer": "rgb(var(--header-footer) / <alpha-value>)",
+        "inside-components": "rgb(var(--inside-components) / <alpha-value>)",
       },
     },
   },

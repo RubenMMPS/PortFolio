@@ -1,6 +1,8 @@
 <template>
   <header>
-    <nav class="flex items-center gap-4 p-4 bg-header-footer shadow text-white">
+    <nav
+      class="flex items-center gap-4 p-4 bg-inside-components shadow text-white"
+    >
       <NuxtLink to="/home"><h2>Portfolio</h2></NuxtLink>
       <div class="ml-auto flex items-center gap-4">
         <NuxtLink to="#baseCard" class="btn">Home</NuxtLink>
