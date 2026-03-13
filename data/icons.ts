@@ -64,3 +64,10 @@ export const skillsIcons: icons[] = [
     color: "rgb(var(--brand-primary))",
   },
 ];
+
+export const menuIcon: icons = {
+  id: 1,
+  name: "menu",
+  link: "token:layer",
+  color: "white",
+};
