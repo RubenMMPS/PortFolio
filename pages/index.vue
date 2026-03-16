@@ -7,5 +7,8 @@
       <AboutMe id="about" class="w-full" />
       <TechnicalProficiency id="skills" class="w-full" />
     </div>
+    <div class="mt-8">
+      <ProyectsGithub id="proyects" />
+    </div>
   </div>
 </template>

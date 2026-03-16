@@ -71,3 +71,18 @@ export const menuIcon: icons = {
   link: "token:layer",
   color: "white",
 };
+
+export const proyectsIcons: icons[] = [
+  {
+    id: 1,
+    name: "github",
+    link: "streamline-logos:github-logo-2-solid",
+    color: "white",
+  },
+  {
+    id: 2,
+    name: "live-demo",
+    link: "material-symbols-light:eye-tracking-outline",
+    color: "white",
+  },
+];
