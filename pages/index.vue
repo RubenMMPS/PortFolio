@@ -10,5 +10,8 @@
     <div class="mt-8">
       <ProyectsGithub id="proyects" />
     </div>
+    <div class="mt-8">
+      <WorkExperience id="experience" />
+    </div>
   </div>
 </template>
