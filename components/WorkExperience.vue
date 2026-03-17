@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { experiences } from "~/data/experiences";
+const { experiences } = usePortfolioData();
 </script>
 
 <template>
