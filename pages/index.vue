@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import ContactMe from "~/components/ContactMe.vue";
+</script>
+
 <template>
   <div>
     <div class="min-h-screen flex items-center justify-center p-8">
@@ -12,6 +16,9 @@
     </div>
     <div class="mt-8">
       <WorkExperience id="experience" />
+    </div>
+    <div class="mt-8">
+      <ContactMe id="contact" />
     </div>
   </div>
 </template>

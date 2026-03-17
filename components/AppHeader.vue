@@ -18,6 +18,11 @@ const closeMobileMenu = () => {
         <NuxtLink to="#skills" class="btn">Skills</NuxtLink>
         <NuxtLink to="#proyects" class="btn">Projects</NuxtLink>
         <NuxtLink to="#experience" class="btn">Experience</NuxtLink>
+        <NuxtLink
+          to="#contact"
+          class="btn bg-brand-primary text-black p-1 rounded"
+          >Get in touch</NuxtLink
+        >
       </div>
 
       <button
@@ -48,6 +53,12 @@ const closeMobileMenu = () => {
         >
         <NuxtLink to="#experience" class="btn" @click="closeMobileMenu"
           >Experience</NuxtLink
+        >
+        <NuxtLink
+          to="#contact"
+          class="btn bg-brand-primary text-black"
+          @click="closeMobileMenu"
+          >Get in touch</NuxtLink
         >
       </div>
     </div>
