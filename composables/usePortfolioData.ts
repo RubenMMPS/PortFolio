@@ -6,10 +6,6 @@ export function usePortfolioData() {
   const allProjects = portfolioData.projects as Project[];
   const experiences = portfolioData.experiences;
 
-  /**
-   * Returns projects filtered by technology.
-   * Early return: if no filter is provided or no results match, returns all projects.
-   */
   function getFilteredProjects(tech?: string): Project[] {
     if (!tech) return allProjects;
 
