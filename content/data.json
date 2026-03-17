@@ -1,0 +1,61 @@
+{
+  "personal": {
+    "name": "Rubén",
+    "role": "Full-Stack Developer",
+    "specialty": "SOFTWARE ENGINEER",
+    "description": "Crafting high-performance, scalable web applications with a focus on clean architecture and user experiences.",
+    "yearsExperience": "5+",
+    "projectsDone": "20+",
+    "aboutParagraphs": [
+      "I am a passionate software engineer based in Madrid, Spain, with over 5 years of experience building complex digital solutions. I especialize in turning complex problems into simple, elegant and scalable code.",
+      "When i'm coding, you can find me exploring new tech trends, contribuiting to open-source proyects, or sharing my knowledge through technical blogging."
+    ],
+    "profileImage": "/pinguino.png"
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "Pokelytro",
+      "imageSrc": "/pokelytro.png",
+      "imageAlt": "Pokelytro",
+      "technologies": ["Angular", "Node.js", "MongoDB"],
+      "description": "This website features a Pokédex, allowing users to search by name, Pokédex number, type, or favorites. It also includes a team builder where users can create their own Pokémon team and save it to their profile for future reference.",
+      "githubUrl": "https://github.com/marcoslgl/pokelytro",
+      "demoUrl": "https://pokelytro.vercel.app/"
+    },
+    {
+      "id": 2,
+      "title": "LitroGym",
+      "imageSrc": "/litrogym.png",
+      "imageAlt": "LitroGym",
+      "technologies": ["Remix", "Node.js", "Vite"],
+      "description": "This website functions as a gym routine creator, allowing users to create their own routines or view healthy meal options for their diet. It also includes an exercise section where users can filter by muscle group, exercise type, or required equipment.",
+      "githubUrl": "https://github.com/edumoro412/LitrogymRemix"
+    },
+    {
+      "id": 3,
+      "title": "App Mensaje del Dia",
+      "imageSrc": "/app-mensaje-dia.png",
+      "imageAlt": "App Mensaje del Dia",
+      "technologies": ["Angular", "Node.js"],
+      "description": "This website was originally created for a friend working abroad. The site contains an inspiring message for each day of the month. It also features a personalized wordle that changes daily and hints for each incorrect answer.",
+      "githubUrl": "https://github.com/RubenMMPS/app-mensaje-dia"
+    }
+  ],
+  "experiences": [
+    {
+      "id": 1,
+      "year": "2026 - Present",
+      "title": "Interning of Frontend Developer",
+      "company": "Alebat Education",
+      "description": "Responsible for developing an online training platform, using Angular for the frontend and Node.js for the backend. Collaborated on architecture design and the implementation of new features."
+    },
+    {
+      "id": 2,
+      "year": "2021 - 2023",
+      "title": "Assistant Bookbinder",
+      "company": "Local Bookbinding Company",
+      "description": "Responsible for covering and numbering boxes in addition to laminating and printing on covers. Also performed quality control tasks and machinery maintenance."
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { proyectsIcons } from "~/data/icons";
-import { projects } from "~/data/projects";
+
+const { projects } = usePortfolioData();
 
 const githubIconName = proyectsIcons[0]?.link ?? "mdi:github";
 const githubIconColor = proyectsIcons[0]?.color ?? "white";
