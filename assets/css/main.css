@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-primary: 57 255 20;
+  --brand-secondary: 168 85 247;
+  --bg-primary: 10 25 47;
+  --text-primary: 255 255 255;
+  --text-secundary: 128 128 128;
+  --inside-components: 22 40 72;
+
+}
+
+h1{
+  @apply text-6xl;
+}
+
+h2{
+  @apply text-3xl;
+}
+
+h3{
+  @apply text-2xl;
+}
