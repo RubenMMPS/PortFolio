@@ -13,14 +13,34 @@ const closeMobileMenu = () => {
       <NuxtLink to="/"><h2>Portfolio</h2></NuxtLink>
 
       <div class="ml-auto hidden md:flex items-center gap-4">
-        <NuxtLink to="#baseCard" class="btn">Home</NuxtLink>
-        <NuxtLink to="#about" class="btn">About</NuxtLink>
-        <NuxtLink to="#skills" class="btn">Skills</NuxtLink>
-        <NuxtLink to="#proyects" class="btn">Projects</NuxtLink>
-        <NuxtLink to="#experience" class="btn">Experience</NuxtLink>
+        <NuxtLink
+          to="#baseCard"
+          class="btn transition-transform hover:scale-110 hover:text-brand-primary"
+          >Home</NuxtLink
+        >
+        <NuxtLink
+          to="#about"
+          class="btn transition-transform hover:scale-110 hover:text-brand-primary"
+          >About</NuxtLink
+        >
+        <NuxtLink
+          to="#skills"
+          class="btn transition-transform hover:scale-110 hover:text-brand-primary"
+          >Skills</NuxtLink
+        >
+        <NuxtLink
+          to="#proyects"
+          class="btn transition-transform hover:scale-110 hover:text-brand-primary"
+          >Projects</NuxtLink
+        >
+        <NuxtLink
+          to="#experience"
+          class="btn transition-transform hover:scale-110 hover:text-brand-primary"
+          >Experience</NuxtLink
+        >
         <NuxtLink
           to="#contact"
-          class="btn bg-brand-primary text-black p-1 rounded"
+          class="btn bg-brand-primary text-black p-1 rounded transition-transform hover:scale-110"
           >Get in touch</NuxtLink
         >
       </div>
@@ -56,7 +76,7 @@ const closeMobileMenu = () => {
         >
         <NuxtLink
           to="#contact"
-          class="btn bg-brand-primary text-black"
+          class="btn bg-brand-primary text-black rounded"
           @click="closeMobileMenu"
           >Get in touch</NuxtLink
         >

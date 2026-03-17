@@ -3,6 +3,7 @@ interface icons {
   name: string;
   link: string;
   color: string;
+  url?: string;
 }
 
 export const footerIcons: icons[] = [
@@ -11,18 +12,21 @@ export const footerIcons: icons[] = [
     name: "infojobs",
     link: "streamline-logos:linkedin-logo-block",
     color: "white",
+    url: "https://www.linkedin.com/in/rub%C3%A9n-mart%C3%ADn-motilla-614248391/",
   },
   {
     id: 2,
     name: "github",
     link: "streamline-logos:github-logo-2-solid",
     color: "white",
+    url: "https://github.com/RubenMMPS",
   },
   {
     id: 3,
-    name: "twitter",
-    link: "streamline-logos:twitter-logo-1-solid",
+    name: "instagram",
+    link: "streamline-logos:instagram-logo-2-solid",
     color: "white",
+    url: "https://www.instagram.com/ruben_mm__/",
   },
 ];
 

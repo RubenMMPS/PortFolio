@@ -18,7 +18,7 @@ const demoIconColor = proyectsIcons[1]?.color ?? "white";
       <article
         v-for="project in projects"
         :key="project.id"
-        class="w-full bg-inside-components rounded-lg overflow-hidden flex flex-col"
+        class="w-full bg-inside-components rounded-lg overflow-hidden flex flex-col transition-transform hover:scale-[1.05]"
       >
         <img
           :src="project.imageSrc"

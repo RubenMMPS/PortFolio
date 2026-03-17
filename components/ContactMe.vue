@@ -50,7 +50,7 @@
 
       <button
         type="submit"
-        class="mt-5 w-full bg-brand-primary text-black text-center font-semibold py-3 rounded"
+        class="mt-5 w-full bg-brand-primary text-black text-center font-semibold py-3 rounded transition hover:scale-105"
       >
         Send Message
       </button>

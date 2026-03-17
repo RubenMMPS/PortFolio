@@ -1,7 +1,7 @@
 <template>
   <button
     :class="[
-      'py-2 px-4 rounded hover:bg-brand-secondary',
+      'py-2 px-4 rounded trasition hover:scale-110',
       type === 'primary'
         ? 'bg-brand-primary'
         : 'border border-white text-white',
