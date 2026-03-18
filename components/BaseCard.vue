@@ -6,7 +6,7 @@ const { personal } = usePortfolioData();
   <section class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
     <div class="order-2 md:order-1">
       <p class="text-brand-primary">{{ personal.specialty }}</p>
-      <h1 class="text-white mb-4">
+      <h1 class="text-text-primary mb-4">
         Hi, im
         <span
           class="bg-gradient-to-r from-brand-primary to-brand-secondary bg-clip-text text-transparent"
@@ -15,7 +15,7 @@ const { personal } = usePortfolioData();
         <br class="hidden md:block" />
         a {{ personal.role }}.
       </h1>
-      <p class="text-gray-400 mb-4">
+      <p class="text-text-secondary mb-4">
         {{ personal.description }}
       </p>
       <div class="flex flex-col md:flex-row gap-4">
@@ -24,7 +24,7 @@ const { personal } = usePortfolioData();
       </div>
     </div>
     <div class="flex items-center justify-center order-1 md:order-2">
-      <img
+      <NuxtImg
         :src="personal.profileImage"
         alt="Profile Picture"
         class="w-60 h-60 object-cover rounded-xl"

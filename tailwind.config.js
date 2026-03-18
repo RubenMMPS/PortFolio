@@ -16,7 +16,7 @@ export default {
         "brand-secondary": "rgb(var(--brand-secondary) / <alpha-value>)",
         "bg-primary": "rgb(var(--bg-primary) / <alpha-value>)",
         "text-primary": "rgb(var(--text-primary) / <alpha-value>)",
-        "text-secundary": "rgb(var(--text-secundary) / <alpha-value>)",
+        "text-secondary": "rgb(var(--text-secondary) / <alpha-value>)",
         "inside-components": "rgb(var(--inside-components) / <alpha-value>)",
       },
     },

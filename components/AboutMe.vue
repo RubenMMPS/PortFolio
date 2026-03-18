@@ -3,8 +3,8 @@ const { personal } = usePortfolioData();
 </script>
 
 <template>
-  <section class="text-gray-400">
-    <h2 class="text-white mb-4">About Me</h2>
+  <section class="text-text-secondary">
+    <h2 class="text-text-primary mb-4">About Me</h2>
 
     <p
       v-for="(paragraph, index) in personal.aboutParagraphs"
