@@ -1,5 +1,15 @@
 <script setup lang="ts">
 import ContactMe from "~/components/ContactMe.vue";
+
+useSeoMeta({
+  title: "Rubén | Full-Stack Developer Portfolio",
+  description:
+    "Portfolio de Rubén, Full-Stack Developer. Proyectos destacados, experiencia profesional y habilidades tecnicas en desarrollo web.",
+  ogTitle: "Rubén | Full-Stack Developer Portfolio",
+  ogDescription:
+    "Explora proyectos, stack tecnologico y experiencia profesional en este portfolio de desarrollo web.",
+  twitterCard: "summary_large_image",
+});
 </script>
 
 <template>
