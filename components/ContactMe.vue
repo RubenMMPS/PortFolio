@@ -1,9 +1,9 @@
 <template>
   <section
     id="contact"
-    class="text-gray-300 bg-inside-components rounded-lg p-8 max-w-2xl mx-auto"
+    class="text-text-secondary bg-inside-components rounded-lg p-8 max-w-2xl mx-auto"
   >
-    <h2 class="text-white mb-4 text-center">Let's Connect</h2>
+    <h2 class="text-text-primary mb-4 text-center">Let's Connect</h2>
 
     <p class="text-center mb-8">
       Have a project in mind or just want to say hi? My inbox is always open.
@@ -21,7 +21,7 @@
             name="name"
             placeholder="Your name"
             required
-            class="bg-inside-components text-white rounded px-4 py-2 border border-gray-600"
+            class="bg-inside-components text-text-primary rounded px-4 py-2 border border-gray-600"
           />
         </div>
 
@@ -32,7 +32,7 @@
             name="email"
             placeholder="Your email"
             required
-            class="bg-inside-components text-white rounded px-4 py-2 border border-gray-600"
+            class="bg-inside-components text-text-primary rounded px-4 py-2 border border-gray-600"
           />
         </div>
       </div>
@@ -44,13 +44,13 @@
           placeholder="Tell me about your project..."
           required
           rows="6"
-          class="bg-inside-components text-white rounded px-4 py-2 border border-gray-600"
+          class="bg-inside-components text-text-primary rounded px-4 py-2 border border-gray-600"
         />
       </div>
 
       <button
         type="submit"
-        class="mt-5 w-full bg-brand-primary text-black text-center font-semibold py-3 rounded"
+        class="mt-5 w-full bg-brand-primary text-black text-center font-semibold py-3 rounded transition hover:scale-105"
       >
         Send Message
       </button>

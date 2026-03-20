@@ -1,29 +1,13 @@
-import portfolioData from "~/content/data.json";
-import type { Project } from "~/types/portfolio";
+import { storeToRefs } from "pinia";
+import { usePortfolioStore } from "~/stores/portfolio";
 
 export function usePortfolioData() {
-  const personal = portfolioData.personal;
-  const allProjects = portfolioData.projects as Project[];
-  const experiences = portfolioData.experiences;
-
-  function getFilteredProjects(tech?: string): Project[] {
-    if (!tech) return allProjects;
-
-    const filtered = allProjects.filter((project) =>
-      project.technologies.some((t) =>
-        t.toLowerCase().includes(tech.toLowerCase()),
-      ),
-    );
-
-    if (!filtered.length) return allProjects;
-
-    return filtered;
-  }
+  const portfolioStore = usePortfolioStore();
+  const { personal, projects, experiences } = storeToRefs(portfolioStore);
 
   return {
     personal,
-    projects: allProjects,
+    projects,
     experiences,
-    getFilteredProjects,
   };
 }
