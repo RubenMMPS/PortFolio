@@ -2,9 +2,6 @@
 import { proyectsIcons } from "~/data/icons";
 
 const { projects } = usePortfolioData();
-
-const githubIconPath = proyectsIcons[0]?.link ?? "/icons/github.svg";
-const demoIconPath = proyectsIcons[1]?.link ?? "/icons/eye.svg";
 </script>
 
 <template>
@@ -28,7 +25,9 @@ const demoIconPath = proyectsIcons[1]?.link ?? "/icons/eye.svg";
             v-for="(technology, techIndex) in project.technologies"
             :key="`${project.id}-${technology}`"
             class="text-[0.75rem] px-[0.5rem] py-[0.25rem] rounded-md mr-2"
-            :class="techIndex === 0 ? 'bg-green-500' : 'bg-gray-500'"
+            :class="
+              techIndex === 0 ? 'bg-green-500 text-gray-900' : 'bg-gray-500'
+            "
           >
             {{ technology }}
           </span>
@@ -40,8 +39,8 @@ const demoIconPath = proyectsIcons[1]?.link ?? "/icons/eye.svg";
           <nuxt-link :to="project.githubUrl" target="_blank" class="mr-4">
             GitHub
             <img
-              :src="githubIconPath"
-              alt="GitHub"
+              :src="proyectsIcons[0]?.link"
+              :aria-hidden="true"
               class="inline-block w-4 h-4 ml-1"
               width="16"
               height="16"
@@ -56,8 +55,8 @@ const demoIconPath = proyectsIcons[1]?.link ?? "/icons/eye.svg";
           >
             Live Demo
             <img
-              :src="demoIconPath"
-              alt="Live Demo"
+              :src="proyectsIcons[1]?.link"
+              :aria-hidden="true"
               class="inline-block w-4 h-4 ml-1"
               width="16"
               height="16"
