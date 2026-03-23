@@ -4,7 +4,9 @@ const { experiences } = usePortfolioData();
 
 <template>
   <section class="max-w-2xl mx-auto py-20 text-text-primary">
-    <h2 class="text-2xl font-bold text-center mb-12">Work Experience</h2>
+    <h2 class="text-2xl font-bold text-center mb-4">Work Experience</h2>
+
+    <div class="border-b-8 border-brand-primary w-20 mb-12 mx-auto rounded" />
 
     <div class="relative">
       <div class="absolute left-2 top-2 bottom-2 w-px bg-gray-700" />

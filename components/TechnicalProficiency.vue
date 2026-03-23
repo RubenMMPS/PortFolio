@@ -4,7 +4,9 @@ import { skillsIcons } from "~/data/icons";
 
 <template>
   <section>
-    <h2 class="text-text-primary mb-4">Technical Proficiency</h2>
+    <h2 class="text-text-primary mb-4 text-center lg:text-left">
+      Technical Proficiency
+    </h2>
 
     <div class="grid grid-cols-2 lg:grid-cols-3 gap-4">
       <div
