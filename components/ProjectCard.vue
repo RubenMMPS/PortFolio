@@ -11,11 +11,19 @@ defineProps<{
   <article
     class="w-full bg-inside-components rounded-lg overflow-hidden flex flex-col transition-transform hover:scale-[1.05]"
   >
-    <NuxtImg
-      :src="project.imageSrc"
-      :alt="project.imageAlt"
-      class="w-full h-52 sm:h-56 lg:h-60 object-cover object-top block"
-    />
+    <div class="relative">
+      <NuxtImg
+        :src="project.imageSrc"
+        :alt="project.imageAlt"
+        class="w-full h-52 sm:h-56 lg:h-60 object-cover object-top block"
+      />
+      <span
+        v-if="project.active"
+        class="absolute right-3 top-3 rounded-full bg-brand-primary px-3 py-1 text-xs font-semibold tracking-wide text-black shadow-lg shadow-cyan-500/50"
+      >
+        ACTIVE
+      </span>
+    </div>
     <div class="p-4 flex-1">
       <span
         v-for="(technology, techIndex) in project.technologies"

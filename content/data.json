@@ -16,6 +16,7 @@
     {
       "id": 1,
       "title": "Pokelytro",
+      "active": true,
       "imageSrc": "/proyects/pokelytro.jpg",
       "imageAlt": "Pokelytro",
       "technologies": ["Angular", "Node.js", "MongoDB"],
@@ -26,6 +27,7 @@
     {
       "id": 2,
       "title": "LitroGym",
+      "active": false,
       "imageSrc": "/proyects/litrogym.jpg",
       "imageAlt": "LitroGym",
       "technologies": ["Remix", "Node.js", "Vite"],
@@ -35,6 +37,7 @@
     {
       "id": 3,
       "title": "App Mensaje del Dia",
+      "active": false,
       "imageSrc": "/proyects/mensaje-dia.jpg",
       "imageAlt": "App Mensaje del Dia",
       "technologies": ["Angular", "Node.js"],
@@ -48,7 +51,7 @@
       "year": "2026 - Present",
       "title": "Interning of Frontend Developer",
       "company": "Alebat Education",
-      "description": "Responsible for developing an online training platform, using Angular for the frontend and Node.js for the backend. Collaborated on architecture design and the implementation of new features."
+      "description": "Responsible for developing an online training platform, using Nuxt for the frontend and Node.js for the backend. Collaborated on architecture design and the implementation of new features."
     },
     {
       "id": 2,

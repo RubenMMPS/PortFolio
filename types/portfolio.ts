@@ -12,6 +12,7 @@ export interface PersonalInfo {
 export interface Project {
   id: number;
   title: string;
+  active?: boolean;
   imageSrc: string;
   imageAlt: string;
   technologies: string[];
