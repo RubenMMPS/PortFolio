@@ -3,7 +3,7 @@ const { personal } = usePortfolioData();
 </script>
 
 <template>
-  <section class="text-text-secondary">
+  <section class="text-text-secondary text-center lg:text-left">
     <h2 class="text-text-primary mb-4">About Me</h2>
 
     <p

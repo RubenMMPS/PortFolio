@@ -1,11 +1,13 @@
 <template>
   <section
     id="contact"
-    class="text-text-secondary bg-inside-components rounded-lg p-8 max-w-2xl mx-auto"
+    class="text-text-secondary bg-inside-components rounded-2xl p-6 md:p-12 lg:p-16 max-w-5xl mx-auto"
   >
-    <h2 class="text-text-primary mb-4 text-center">Let's Connect</h2>
+    <h2 class="text-3xl md:text-4xl text-text-primary mb-4 md:mb-6 text-center">
+      Let's Connect
+    </h2>
 
-    <p class="text-center mb-8">
+    <p class="text-center mb-4 md:mb-10 text-base md:text-lg">
       Have a project in mind or just want to say hi? My inbox is always open.
     </p>
     <form

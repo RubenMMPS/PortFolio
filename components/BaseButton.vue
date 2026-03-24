@@ -1,14 +1,23 @@
 <template>
-  <button
-    :class="[
-      'py-2 px-4 rounded trasition hover:scale-110',
+  <a
+    :href="
       type === 'primary'
-        ? 'bg-brand-primary'
-        : 'border border-white text-text-primary',
-    ]"
+        ? 'https://github.com/RubenMMPS'
+        : '/Rubén_Martín_CV.pdf'
+    "
+    :download="type === 'secondary' ? 'Rubén_Martín_CV.pdf' : undefined"
   >
-    {{ text }}
-  </button>
+    <button
+      :class="[
+        'py-2 px-4 rounded trasition hover:scale-110',
+        type === 'primary'
+          ? 'bg-brand-primary'
+          : 'border border-white text-text-primary',
+      ]"
+    >
+      {{ text }}
+    </button>
+  </a>
 </template>
 
 <script setup lang="ts">

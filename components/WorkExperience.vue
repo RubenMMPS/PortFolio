@@ -3,8 +3,16 @@ const { experiences } = usePortfolioData();
 </script>
 
 <template>
-  <section class="max-w-2xl mx-auto py-20 text-text-primary">
-    <h2 class="text-2xl font-bold text-center mb-12">Work Experience</h2>
+  <section
+    class="max-w-5xl mx-auto py-12 md:py-28 px-4 md:px-8 lg:px-12 text-text-primary"
+  >
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-6">
+      Work Experience
+    </h2>
+
+    <div
+      class="border-b-8 border-brand-primary w-20 md:w-28 mb-10 md:mb-16 mx-auto rounded"
+    />
 
     <div class="relative">
       <div class="absolute left-2 top-2 bottom-2 w-px bg-gray-700" />
