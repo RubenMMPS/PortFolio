@@ -15,9 +15,9 @@ const { personal } = usePortfolioData();
         <br class="hidden md:block" />
         a {{ personal.role }}.
       </h1>
-      <h3 class="text-text-secondary mb-4">
+      <p class="text-text-secondary text-2xl mb-4">
         {{ personal.description }}
-      </h3>
+      </p>
       <div class="flex flex-row gap-4 justify-center md:justify-start">
         <BaseButton text="View Work" type="primary" />
         <BaseButton text="Download CV" type="secondary" />
