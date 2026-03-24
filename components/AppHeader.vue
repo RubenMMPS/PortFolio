@@ -36,17 +36,27 @@ const links = [
       </div>
 
       <button
-        class="ml-auto md:hidden inline-flex items-center justify-center rounded-md p-2 border border-white/30"
+        :class="[
+          'ml-auto md:hidden inline-flex min-h-12 min-w-12 items-center justify-center rounded-md border p-2 transition-colors duration-200',
+          isMobileMenuOpen
+            ? 'border-brand-primary bg-brand-primary/20 text-brand-primary'
+            : 'border-white/30 bg-transparent text-text-primary',
+        ]"
         type="button"
         :aria-expanded="isMobileMenuOpen"
         aria-controls="mobile-menu"
-        aria-label="Toggle navigation menu"
+        :aria-label="
+          isMobileMenuOpen ? 'Close navigation menu' : 'Open navigation menu'
+        "
         @click="isMobileMenuOpen = !isMobileMenuOpen"
       >
         <img
           :src="menuIcon.link"
           alt="Menu"
-          class="w-6 h-6"
+          :class="[
+            'w-6 h-6 transition-transform duration-200',
+            isMobileMenuOpen ? 'rotate-90 scale-110' : 'rotate-0 scale-100',
+          ]"
           width="24"
           height="24"
         />
