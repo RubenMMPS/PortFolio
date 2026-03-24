@@ -9,7 +9,7 @@
   >
     <button
       :class="[
-        'py-2 px-4 rounded trasition hover:scale-110',
+        'min-h-12 min-w-12 py-2 px-4 inline-flex items-center justify-center rounded trasition hover:scale-110',
         type === 'primary'
           ? 'bg-brand-primary'
           : 'border border-white text-text-primary',
