@@ -4,7 +4,7 @@ Portfolio web desarrollado con Nuxt 4 para mostrar perfil profesional, stack tec
 
 ## Demo visual
 
-![Hero del portfolio](./public/fondo.jpg)
+![Hero del portfolio](./public/visualDemo.jpg)
 
 ## Stack
 
