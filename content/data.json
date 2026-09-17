@@ -15,8 +15,18 @@
   "projects": [
     {
       "id": 1,
-      "title": "Pokelytro",
+      "title": "IA-Apis",
       "active": true,
+      "imageSrc": "/projects/ia-apis.jpg",
+      "imageAlt": "IA-Apis",
+      "technologies": ["Python", "FastAPI","LangGraph", "Groq/Gemini", "PostgreSQL", "Docker"],
+      "description": "An AI-powered software engineering team that uses multiple specialized agents to plan, research, architect, develop, test, and review software projects automatically. It combines RAG, code generation, Docker-based testing, and LangGraph orchestration into an end-to-end development workflow.",
+      "githubUrl": "https://github.com/RubenMMPS/IA-Apis"
+    },
+    {
+      "id": 2,
+      "title": "Pokelytro",
+      "active": false,
       "imageSrc": "/projects/pokelytro.jpg",
       "imageAlt": "Pokelytro",
       "technologies": ["Angular", "Node.js", "MongoDB"],
@@ -25,7 +35,7 @@
       "demoUrl": "https://pokelytro.vercel.app/"
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "LitroGym",
       "active": false,
       "imageSrc": "/projects/litrogym.jpg",
@@ -35,7 +45,7 @@
       "githubUrl": "https://github.com/edumoro412/LitrogymRemix"
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "App Mensaje del Dia",
       "active": false,
       "imageSrc": "/projects/mensaje-dia.jpg",
@@ -48,7 +58,7 @@
   "experiences": [
     {
       "id": 1,
-      "year": "2026 - Present",
+      "year": "02/03/2026 - 10/06/2026",
       "title": "Interning of Frontend Developer",
       "company": "Alebat Education",
       "description": "Responsible for developing an online training platform, using Nuxt for the frontend and Node.js for the backend. Collaborated on architecture design and the implementation of new features."

@@ -25,14 +25,18 @@ defineProps<{
       </span>
     </div>
     <div class="p-4 flex-1">
-      <span
-        v-for="(technology, techIndex) in project.technologies"
-        :key="`${project.id}-${technology}`"
-        class="text-[0.75rem] px-[0.5rem] py-[0.25rem] rounded-md mr-2"
-        :class="techIndex === 0 ? 'bg-green-500 text-gray-900' : 'bg-gray-500'"
-      >
-        {{ technology }}
-      </span>
+      <div class="flex flex-wrap gap-2">
+        <span
+          v-for="(technology, techIndex) in project.technologies"
+          :key="`${project.id}-${technology}`"
+          class="inline-flex items-center text-[0.75rem] px-[0.5rem] py-[0.25rem] rounded-md"
+          :class="
+            techIndex === 0 ? 'bg-green-500 text-gray-900' : 'bg-gray-500'
+          "
+        >
+          {{ technology }}
+        </span>
+      </div>
 
       <h2 class="mt-5 mb-2">{{ project.title }}</h2>
       <p class="text-text-secondary/80 mb-5">
